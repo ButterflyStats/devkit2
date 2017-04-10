@@ -29,3 +29,7 @@ npm run e2e
 # run all tests
 npm test
 ```
+
+## License
+
+Apache 2.0
