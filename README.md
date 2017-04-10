@@ -2,6 +2,12 @@
 
 > ButterflyJS development kit
 
+This project is very unfinished and lacks like 90% of the features `devkit1` has.
+The codebase here is much cleaner however.
+
+Using the butterflyJS bindings (as opposed to having to write C++ code alongside the Javascript) should make it easy
+for anyone to add to this or re-purpose it for their own website.
+
 To update the replay parser in the devkit, you need to build butterfly using emscripten (e.g. generating the JS bindings).
 Afterwards, simply replace the generated javascript with the files in `static/butterfly`.
 
@@ -16,18 +22,6 @@ npm run dev
 
 # build for production with minification
 npm run build
-
-# build for production and view the bundle analyzer report
-npm run build --report
-
-# run unit tests
-npm run unit
-
-# run e2e tests
-npm run e2e
-
-# run all tests
-npm test
 ```
 
 ## License
