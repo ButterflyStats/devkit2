@@ -1,0 +1,66 @@
+/* Fonts */
+@import url(https://fonts.googleapis.com/css?family=Lato:400,300|Share+Tech+Mono|Ubuntu+Mono);
+
+$font-lato: 'Lato', sans-serif;
+$font-share: 'Share Tech Mono', monospace;
+$font-ubuntu: 'Ubuntu Mono', monospace;
+
+
+
+/* Colors */
+$color-dota: #C9302C;
+$color-dire: #E74C3C;
+$color-radiant: #8AC954;
+$color-bg-dark: #2B3b40;
+$color-spacer-dark: #1f1f1f;
+$color-bg-light: #F9F9F9;
+
+$color-grey-1: #131313;
+$color-grey-2: #1E1E1E;
+$color-grey-3: #2E2E2E;
+
+$color-bg-content: #1E2A34;
+
+$color-controls: #777;
+$color-controls-border: #CCC;
+
+/* Sizes */
+$sidebar-width: 100px;
+$ibox-spacing: 15px;
+$playbar-height: 34px;
+
+/* Util */
+.nopadding {
+   padding: 0 !important;
+}
+
+.nomargin {
+    margin: 0 !important;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.clear {
+  clear: both;
+}
+
+.row-no-padding {
+  [class*="col-"] {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+}
+
+.h100 {
+  height: 100%;
+}
+
+.h100p {
+  height: calc(100% - 34px);
+}
