@@ -22,6 +22,7 @@
       <!-- Controls -->
       <controls></controls>
     </template>
+  </div>
 </template>
 
 <script>
