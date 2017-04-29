@@ -1,4 +1,4 @@
-# Butterlfy - devkit2
+# Butterfly - devkit2
 
 > ButterflyJS development kit
 
@@ -10,6 +10,10 @@ for anyone to add to this or re-purpose it for their own website.
 
 To update the replay parser in the devkit, you need to build butterfly using emscripten (e.g. generating the JS bindings).
 Afterwards, simply replace the generated javascript with the files in `static/butterfly`.
+
+## Project status
+
+I won't work on this anymore, feel free to write me a mail if you want to take over.
 
 ## Building the project
 
